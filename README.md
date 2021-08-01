@@ -31,20 +31,15 @@ Once `pip` has finished downloading the dependencies:
 ```
 And navigate to `http://127.0.0.1:8000/`.
 
-In order to test the purchase flows, fill in the account details in
-`project/gc_app/views.py` to match your **SANDBOX** developer credentials.
 
-## Walkthrough
+## Project Flow
 
-Before you interact with the application, go to GoCardless Sandbox and set up
-the Redirect URI in the Developer settings. To make it work with this
-application, use the value `http://127.0.0.1:8000/gocardless/confirm/`. This is to
-make sure you are redirected back to your site where the purchase is verified
-after you have made a purchase.
+I am listed teacher list and profile button is able to show detail page.
+we have teacher bulk list importer option also.But super user only able to do the importer option.
 
 ## Tests
 
 To run the tests, `cd` into the directory where `manage.py` is:
 ```sh
-(env)$ python manage.py test gc_app
+(env)$ python manage.py test teacher_directory
 ```
