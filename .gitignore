@@ -1,0 +1,7 @@
+*.log
+*.pot
+*.pyc
+*.env
+*.txt
+__pycache__/
+*.db
